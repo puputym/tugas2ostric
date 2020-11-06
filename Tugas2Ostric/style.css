@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    background-image: url(images/home\ page.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    transition: 0.6s;
+    margin-top: 40px;
+    margin-right: 90px;
+    font-family: arial;
+}
+ul li a:hover{
+    background-color:burlywood;
+    color: black;
+}
+ul li.active a{
+    background-color:burlywood;
+    color: black;
+}
+.logo{
+    float: left;
+    width: 180px;
+    height: auto;
+    font-size: 7mm;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(0, 0, 110);
+    font-weight: bold;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:30% ;
+    left: 8%;
+    color: #ffffff;
+}
+h1{
+    font-size: 2cm;
+    line-height: 60px;
+}
+h2{
+    font-size: 1cm;
+    line-height: 60px;
+}
+h3{
+    font-size: 1cm;
+    line-height: 60px;
+}
+
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle-container{
+    padding: 5px;
+    height: auto;
+    text-align: center;
+    line-height: 15px;
+    margin-top: 25px;
+    font-family: arial;
+    position: relative;
+}
+.rooms-rows{
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 600px;
+    margin-left: 350px;
+    margin-right: 350px;
+    line-height: 30px;
+}
+.gambar{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.rooms-rows h3{
+    font-size: 7mm;
+}
+.testimonial{
+    text-align: center;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.testimonial h2, p{
+    font-family: "Montserrat";
+    line-height: 45px;
+}
+.bottom-container{
+   text-align: center;
+   margin-top: 25px;
+   text-decoration: none;
+   background-color:navy;
+   padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.footer-link{
+    margin: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-link:hover{
+    color: #003cff;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #ffed66;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffed66 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffed66;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffed66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffed66 5%, #ffec64 100%);
+	background-color:#ffed66;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.solid{
+    border-left: 1px black solid;
+    padding-left: 10px;
+}
+
+
